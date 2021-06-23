@@ -21,6 +21,8 @@
 #![deny(rust_2018_compatibility)]
 #![deny(rust_2018_idioms)]
 #![deny(unused)]
+#![allow(incomplete_features)]
+#![feature(const_generics)]
 
 #[cfg(feature = "derive_arbitrary")]
 pub use derive_arbitrary::*;
